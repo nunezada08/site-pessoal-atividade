@@ -6,9 +6,9 @@ botao.addEventListener("click", () => {
     if (body.classList.contains("claro")) {
 
         body.classList.replace("claro", "escuro");
-        botao.textContent = "Modo claro ☀️";
+        botao.textContent = "☀️";
     } else {
         body.classList.replace("escuro", "claro");
-        botao.textContent = "Modo escuro 🌙"
+        botao.textContent = "🌙"
     }
 })
